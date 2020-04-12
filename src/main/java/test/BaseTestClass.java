@@ -64,9 +64,7 @@ public class BaseTestClass {
         // Getting decoder
         Base64.Decoder decoder = Base64.getDecoder();
         // Decoding string
-        String dStr = new String(decoder.decode(str));
-        System.out.println("Decoded string: "+dStr);
-        DECRYPTEDTOKEN = dStr;
+        DECRYPTEDTOKEN = new String(decoder.decode(str));
     }
 
     /**

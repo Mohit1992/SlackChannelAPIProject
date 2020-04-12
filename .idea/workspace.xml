@@ -2,29 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a8ab97a-35b7-4d50-bdb9-681aaa8784be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slackChannel.log" beforeDir="false" afterPath="$PROJECT_DIR$/slackChannel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/BaseTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/BaseTestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/SlackChannelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/SlackChannelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SlackChannelAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SlackChannelAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/env.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/env.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/BaseTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/BaseTestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/SlackChannelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/SlackChannelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/SlackChannelAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/SlackChannelAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ExtentReportsTestNG.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.SlackChannelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.SlackChannelTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/slack Test Suite/slackChannelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/slack Test Suite/slackChannelTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/slack Test Suite/slackChannelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/slack Test Suite/slackChannelTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReportsTestNG.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/env.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojos/responsePojo/Channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojos/responsePojo/ListChannelPojo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojos/responsePojo/Purpose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojos/responsePojo/Response_metadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojos/responsePojo/SlackChannelPojo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojos/responsePojo/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojos/testdataPojo/ChannelDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/BaseTestClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/SlackChannelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/EndPointURL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReports/ExtentReporterNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReadPropertyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/SlackChannelAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/TestDataReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ExtentReportsTestNG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.SlackChannelTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/slackChannelTest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/slack Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/slack Test Suite/slackChannelTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/slack Test Suite/slackChannelTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,28 +246,28 @@
     </state>
     <state width="584" height="466" key="DebuggerActiveHint/0.23.1440.810@0.23.1440.810" timestamp="1586687619282" />
     <state width="584" height="468" key="DebuggerActiveHint/0.23.1440.812@0.23.1440.812" timestamp="1586700909553" />
-    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1586712910387">
+    <state width="1398" height="559" key="GridCell.Tab.0.bottom" timestamp="1586713782971">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586712910387" />
+    <state width="1398" height="559" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586713782971" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1586696839967" />
     <state width="1358" height="196" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1586706450645" />
-    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1586712910385">
+    <state width="1398" height="559" key="GridCell.Tab.0.center" timestamp="1586713782968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586712910385" />
+    <state width="1398" height="559" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586713782968" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1586696839965" />
     <state width="1358" height="196" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1586706450644" />
-    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1586712910384">
+    <state width="1398" height="559" key="GridCell.Tab.0.left" timestamp="1586713782966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586712910384" />
+    <state width="1398" height="559" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586713782966" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1586696839964" />
     <state width="1358" height="196" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1586706450643" />
-    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1586712910386">
+    <state width="1398" height="559" key="GridCell.Tab.0.right" timestamp="1586713782970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586712910386" />
+    <state width="1398" height="559" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586713782970" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1586696839966" />
     <state width="1358" height="196" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1586706450644" />
     <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1586712910390">
