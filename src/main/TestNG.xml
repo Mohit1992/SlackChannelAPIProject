@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="slack Test Suite">
+    <listeners>
+        <listener class-name="utils.ExtentReports.ExtentReporterNG"/>
+    </listeners>
+    <test name="slackChannelTest">
+        <classes>
+            <class name="test.SlackChannelTest"/>
+        </classes>
+    </test>
+</suite>

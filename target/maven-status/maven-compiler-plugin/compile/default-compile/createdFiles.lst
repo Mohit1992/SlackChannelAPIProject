@@ -1,0 +1,14 @@
+utils/ReadPropertyFile.class
+pojos/responsePojo/Channel.class
+utils/EndPointURL.class
+pojos/responsePojo/Purpose.class
+test/BaseTestClass.class
+test/SlackChannelTest.class
+pojos/responsePojo/Topic.class
+pojos/responsePojo/ListChannelPojo.class
+pojos/responsePojo/SlackChannelPojo.class
+utils/SlackChannelAPI.class
+utils/ExtentReports/ExtentReporterNG.class
+pojos/testdataPojo/ChannelDetails.class
+utils/TestDataReader.class
+pojos/responsePojo/Response_metadata.class

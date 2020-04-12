@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2356" started-at="2020-04-10T21:58:56Z" finished-at="2020-04-10T21:58:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2356" started-at="2020-04-10T21:58:56Z" finished-at="2020-04-10T21:58:58Z">
+      <class name="slackProject.createChannel">
+        <test-method status="PASS" signature="getData()[pri:0, instance:slackProject.createChannel@6093dd95]" name="getData" is-config="true" duration-ms="9" started-at="2020-04-10T21:58:56Z" finished-at="2020-04-10T21:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="CreateSlackChannel()[pri:0, instance:slackProject.createChannel@6093dd95]" name="CreateSlackChannel" duration-ms="2325" started-at="2020-04-10T21:58:56Z" finished-at="2020-04-10T21:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateSlackChannel -->
+      </class> <!-- slackProject.createChannel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

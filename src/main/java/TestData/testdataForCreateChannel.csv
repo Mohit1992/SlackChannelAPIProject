@@ -1,0 +1,5 @@
+channelName,channelCreationStatus,error,errorDetail
+channel1,positive,,
+channel2,positive,,
+",,,",negative,invalid_name_punctuation,Value passed for `name` contained only punctuations.
+channel1,negative,name_taken,`name` is already taken.
