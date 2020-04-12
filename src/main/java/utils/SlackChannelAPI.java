@@ -12,7 +12,7 @@ public class SlackChannelAPI extends BaseTestClass {
      */
     public static Response getListOFChannel() {
         HashMap<String, String> params = new HashMap<String, String>();
-        params.put("token", ReadPropertyFile.prop.getProperty("TOKEN"));
+        params.put("token", DECRYPTEDTOKEN);
         Response response = getRequest(EndPointURL.LIST.url(), params, statusCodePass);
         return response;
     }

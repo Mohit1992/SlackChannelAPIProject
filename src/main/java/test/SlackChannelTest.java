@@ -3,6 +3,7 @@ package test;
 import com.google.gson.Gson;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pojos.responsePojo.Channel;
 import pojos.responsePojo.ListChannelPojo;
@@ -14,6 +15,7 @@ import utils.SlackChannelAPI;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.List;
 
@@ -39,7 +41,7 @@ public class SlackChannelTest extends BaseTestClass {
     public void createSlackChannelTest(ChannelDetails channelDetails, Method method) {
 
         HashMap<String, String> params = new HashMap<String, String>();
-        params.put("token", ReadPropertyFile.prop.getProperty("TOKEN"));
+        params.put("token", DECRYPTEDTOKEN);
         params.put("name", channelDetails.getChannelName());
         params.put("validate", ReadPropertyFile.prop.getProperty("VALIDATE"));
 
@@ -72,7 +74,7 @@ public class SlackChannelTest extends BaseTestClass {
     public void leaveSlackChannelTest() {
 
         HashMap<String, String> params = new HashMap<String, String>();
-        params.put("token", ReadPropertyFile.prop.getProperty("TOKEN"));
+        params.put("token", DECRYPTEDTOKEN);
         params.put("channel", createdSlackChannelIDs.get(0));
         String leftSlackChannelID = createdSlackChannelIDs.get(0);
         Response response = postRequest(EndPointURL.LEAVE.url(), params, statusCodePass);
@@ -100,7 +102,7 @@ public class SlackChannelTest extends BaseTestClass {
 
         for (int i = 0; i < channelIDAndName.size(); i++) {
             HashMap<String, String> params = new HashMap<String, String>();
-            params.put("token", ReadPropertyFile.prop.getProperty("TOKEN"));
+            params.put("token", DECRYPTEDTOKEN);
             params.put("name", channelIDAndName.get(createdSlackChannelIDs.get(i)));
             params.put("validate", ReadPropertyFile.prop.getProperty("VALIDATE"));
 
@@ -130,7 +132,7 @@ public class SlackChannelTest extends BaseTestClass {
     public void renameSlackChannelTest() {
 
         HashMap<String, String> params = new HashMap<String, String>();
-        params.put("token", ReadPropertyFile.prop.getProperty("TOKEN"));
+        params.put("token", DECRYPTEDTOKEN);
         params.put("channel", createdSlackChannelIDs.get(0));
         params.put("name", renamedString + channelIDAndName.get(createdSlackChannelIDs.get(0)));
         params.put("validate", ReadPropertyFile.prop.getProperty("VALIDATE"));
@@ -200,7 +202,7 @@ public class SlackChannelTest extends BaseTestClass {
     public void archiveSlackChannelTest() {
 
         HashMap<String, String> params = new HashMap<String, String>();
-        params.put("token", ReadPropertyFile.prop.getProperty("TOKEN"));
+        params.put("token", DECRYPTEDTOKEN);
         params.put("channel", createdSlackChannelIDs.get(0));
         archiveSlackChannelID = createdSlackChannelIDs.get(0);
 

@@ -12,6 +12,7 @@ import utils.ReadPropertyFile;
 import utils.TestDataReader;
 
 import java.io.IOException;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.List;
 
@@ -27,6 +28,7 @@ public class BaseTestClass {
     public static final String positiveStatus = "positive"; // Positive status of test cases added in testdataForCreateChannel
     public static final String negativeStatus = "negative"; // Negative status of test cases added in testdataForCreateChannel
     public static final int statusCodePass = 200; // Expected passed status code of API response
+    public static String DECRYPTEDTOKEN = null;
 
     /**
      * read data from the test data csv
@@ -52,9 +54,19 @@ public class BaseTestClass {
      * 2. Setting the baseURI
      */
     @BeforeClass
-    public void setUp() {
+    public static void setUp() {
         ReadPropertyFile.readConfFile();
         RestAssured.baseURI = BASE_URL;
+
+        // Encoding string
+        String str = ReadPropertyFile.prop.getProperty("TOKEN");
+
+        // Getting decoder
+        Base64.Decoder decoder = Base64.getDecoder();
+        // Decoding string
+        String dStr = new String(decoder.decode(str));
+        System.out.println("Decoded string: "+dStr);
+        DECRYPTEDTOKEN = dStr;
     }
 
     /**
